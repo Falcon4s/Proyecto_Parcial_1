@@ -63,6 +63,7 @@ body{
     margin: 16px 0;
     font-size: 16px;
     border-radius: 6px;
+    text-align: center;
 }
 
 #pres .col-md-4 {
@@ -71,6 +72,12 @@ body{
 /* Estilo adicional para la última columna */
 #pres .col-md-4:last-child {
     border-right: none; /* Eliminar el borde punteado de la última columna */
+}
+#pres {
+    margin-top: 85px; /* 56px es la altura aproximada del navbar */
+}
+#cuadro{
+    margin-top: 85px;
 }
 #footer{
     background: #17a592;
@@ -81,4 +88,8 @@ body{
 }
 .card:hover {
     transform: scale(1.05);
+}
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
 }
