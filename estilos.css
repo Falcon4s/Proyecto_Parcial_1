@@ -64,3 +64,14 @@ body{
     font-size: 16px;
     border-radius: 6px;
 }
+
+#pres .col-md-4 {
+    border-right: 3px dotted white;
+}
+/* Estilo adicional para la última columna */
+#pres .col-md-4:last-child {
+    border-right: none; /* Eliminar el borde punteado de la última columna */
+}
+#footer{
+    background: #17a592;
+}
