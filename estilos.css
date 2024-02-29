@@ -69,12 +69,11 @@ body{
 #pres .col-md-4 {
     border-right: 3px dotted white;
 }
-/* Estilo adicional para la última columna */
 #pres .col-md-4:last-child {
-    border-right: none; /* Eliminar el borde punteado de la última columna */
+    border-right: none;
 }
 #pres {
-    margin-top: 85px; /* 56px es la altura aproximada del navbar */
+    margin-top: 85px;
 }
 #cuadro{
     margin-top: 85px;
